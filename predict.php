@@ -11,7 +11,7 @@ $airco = $_GET["airco"];
 $garagepl = $_GET["garagepl"];
 $prefarea = $_GET["prefarea"];
 
-//Execute the model
+//Execute the model to pass request
 
 system(" /usr/anaconda/bin/python3 house_price_model.py ".$lotsize." ".$bathrms." ".$stories." ".$driveway." ".$recroom." ".$fullbase." ".$gashw." ".$airco." ".$garagepl." ".$prefarea." 2>&1");
 
